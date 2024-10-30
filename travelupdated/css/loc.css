@@ -1,0 +1,453 @@
+
+   /* Add your custom styles here */
+        .custom-tabs .nav-item {
+            text-align: center;
+        }
+        .custom-tabs .nav-link {
+            padding: 10px 20px;
+            margin: 0;
+            background-color: #ffffff; /* Default background color */
+            transition: background-color 0.3s ease;
+        }
+        .custom-tabs .nav-link.active {
+            background-color: #007bff; /* Active tab background color */
+            color: #fff; /* Active tab text color */
+        }
+
+.sticky-top{
+  background-color: #31124bde;
+
+}
+
+ /* Initially hide the navbar */
+  #navbar {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+
+  /* Make the navbar visible when the "visible" class is added */
+  #navbar.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.card-body h5 p , a {
+  text-decoration: none;
+  color: rgba(24, 23, 23, 0.87);
+
+}
+
+.location{
+  margin-top: -30px;
+  color:#ffffff;
+  font-weight: 600;
+ 
+}
+
+
+.card-title:hover{
+  text-decoration: underline;
+  color: black;
+
+}
+
+.card-body:hover{
+  cursor : pointer ;
+  color: rgba(24, 23, 23, 0.87);
+}
+
+.card-body h5{
+  color: black;
+  font-weight: 500;
+}
+
+
+/* location */
+
+.loc-header{
+  width: 100%;
+  height: 150px;
+}
+
+.loc-hed span{
+  color:#ff4f7bee;
+}
+
+.loc-hed h2{
+  font-weight: 600;
+}
+
+h1{
+  font-size: 5vw;
+  font-weight: 600;
+
+
+}
+
+.main-crd{
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.crd_body{
+  height: auto;
+  padding: 10px;
+}
+.main-crd:hover{
+  background-color: black;
+  cursor: pointer;
+  color: #fff;
+}
+
+ul li {
+  list-style: none;
+}
+
+.crd_nav_list{
+   border: 1px solid rgb(255, 255, 255);
+   /* padding-left: 50px;
+   padding-right: 50px; */
+   border-radius: 8px;
+   cursor: pointer;
+   margin: 15px;
+   padding: 10px 50px 10px 50px;
+}
+
+
+/* .nav-link{
+  float: left;
+} */
+
+.crd_nav_list:hover{
+  background-color: rgba(8, 8, 8, 0.89) !important ;
+  color: #fff;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.loc-hed h5{
+  color: #fff;
+}
+
+
+.col_img_carousel{
+  height: 30vw;
+}
+
+.col_img_carousel_2{
+  height: 15vw;
+}
+
+
+
+
+.col-alert{
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.836);
+  padding: 7px 10px 7px 10px;
+  margin: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  
+}
+
+.loc_img:hover ,img:hover{
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+
+.col-alert:hover{
+  background-color:#232424f8 ; 
+  opacity: 0.8;
+}
+
+
+.loc_about span{
+  color:#ff4f7bee;
+  font-weight: 600;
+}
+
+.loc_about_para p {
+  
+  text-align: justify !important;
+}
+
+.loc_trip_plan{
+ 
+  background-image: linear-gradient(rgba(27, 15, 70, 0.767),rgba(19, 6, 94, 0.719)),url(../images/travel_web/location/loc001.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  transition: all 1s linear infinite;
+  border-radius: 20px
+  
+}
+
+.loc_trip_para{
+  font-weight: 700;
+  color: #fff;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  input[type='text']::placeholder {
+            padding-left: 10px;
+        }
+
+          input[type='text'] {
+            padding-left: 20px;
+            height: 40px;
+            width: 30%;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+        }
+
+   
+/* .carousel-control-next-icon{
+  border: 1px solid black;
+  background-color: #fdfcfcce;
+  color: #000000;
+  border-radius: 50px;
+} */
+
+
+.loc_hed_2{
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(21, 21, 24, 0.842);
+}
+
+
+.see_all{
+  color:#1606f8;
+  font-weight: 600;
+  font-style: italic ;
+  font-family:"Times New Roman", Times, serif;
+
+}
+
+.see_all:active{
+  color: red;
+
+}
+
+.see_all:hover{
+  color:orange;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.card , .card-body{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition: all 1s linear;
+}
+
+
+.main-box {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+ 
+}
+
+.box{
+  margin-left: 2px;
+  padding: 5px;
+  transition: all 1s linear;
+}
+
+.item1,.item2,.item3,.item4,.item5{
+  background-color: #00aa6c;
+  height: 5px;
+  border-radius: 50%;
+  border: 1px solid green;
+  
+  
+}
+
+/* .item5{
+  background-color: green;
+  height: 15px;
+  border-radius: 50%;
+} */
+  
+.item5 {
+ 
+
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.item5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0px;
+  background-color:  #00aa6c;
+  border-radius: 50%;
+  
+  
+}
+
+.item5::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 15px;
+  background-color: white;
+
+  
+}
+
+
+.card-text h5, p{
+  color: black;
+  font-weight: 600;
+}
+
+
+.card-text h5:hover ,.card-text p:hover{
+  color:rgba(0, 0, 0, 0.61);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: all .5s ease;
+}
+  
+.card:hover,img:hover , h5:hover,p:hover{
+  transition: all .5s ease;
+}
+
+
+
+
+/* .scroll-bar{
+      width: 100%;
+    overflow-x: scroll; 
+    white-space: nowrap;
+} */
+
+
+/* .scroll-bar_hori{
+  
+    background-color: #ffffff;
+} */
+
+
+ .scroll-bar {
+            overflow-x: auto; /* Enable horizontal scrollbar */
+            white-space: nowrap; /* Prevent content from wrapping */
+        }
+
+
+
+
+
+
+
+
+
+
+/* media queris */
+
+@media(max-width:600px){
+  .loc-header{
+    display: none !important ;
+  }
+}
+
+
+
+@media(max-width:600px){
+  .mobile-side-crousel{
+    display: none  ;
+    
+  }
+
+    .col_img_carousel{
+    height: auto;
+  }
+
+
+}
+
+
+
+@media(max-width:600px){
+  .img-slide-show{
+    margin-top:-80px;
+    
+  }
+
+    .col_img_carousel{
+    height: auto;
+  }
+
+ 
+}
+
+@media(max-width:400px){
+  .img-slide-show{
+    margin-top:-110px;
+    
+  }
+
+  .col_img_carousel{
+    height: auto;
+  }
+
+  .card{
+    margin-bottom: 10px;
+  }
+
+ 
+}
+
+ @media (max-width: 1300px)  {
+    #navbar {
+      display: none;
+    }
+
+    /* nav{
+      display: none;
+    } */
+  }
+
+  /* @media(min-width:500px){
+    nav{
+      display: none;
+    }
+
+      .navbar-light{
+    display: none;
+  }
+  }
+ */
+.scroll-bar{
+  scrollbar-width:thin;
+  color: #1606f8;
+            
+}
+
+   .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+
+  

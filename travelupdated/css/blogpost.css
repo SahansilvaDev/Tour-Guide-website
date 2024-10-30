@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+    .carousel-item img{
+   
+      height:50vh;
+      width: 100%;
+     
+      background-position: center center;
+     
+    }
+
+
+    .main-text {
+     
+      font-weight: 900;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      font-size: 78px;
+      color:#fff ;
+      text-transform:uppercase;
+      padding-top: 20%;
+      transition: all 1s ease;
+      
+    
+ 
+    }
+
+
+
+    .form {
+            width: 100%;
+            text-align: left; /* Center the form elements */
+            justify-content: center;
+            
+        }
+
+        input[type='text'] {
+            display: inline-block; /* Keep the display property */
+            width: 100%;
+            margin-bottom: 1em;
+            padding: 10px;
+            border: solid thin lightgray;
+            border-radius: 35px;
+            height: 40px;
+            
+            box-shadow: inset 0 0 6px rgb(255, 255, 255), inset 0 0 9px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type='submit'] {
+            cursor: pointer;
+         
+            background: linear-gradient(to right, #fa9e1b, #8d4fff);
+            z-index: -1;
+            border: none;
+            border-radius: 5rem;
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s linear;
+            padding: 0.6rem 5rem;
+            margin-left: 15px;
+        }
+
+        input[type='text']::placeholder {
+            padding-left: 20px;
+        }
+
+    .sticky-top{
+      background-color: #210d75;
+    }
+
+    a,.card-body {
+      text-decoration: none;
+      color: rgba(15, 15, 15, 0.945);
+    }
+
+    .card-title{
+      color: black;
+    }
+
+     .card-title:hover{
+        text-decoration: underline;
+        text-decoration-thickness:2px;
+        text-decoration-color: #fa9e1b;
+         line-height:5px;
+         text-underline-offset: 5px;
+         padding-bottom: 5px;
+
+    
+
+   
+    }
+
+ 

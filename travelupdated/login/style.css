@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    /* justify-content: right; */
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.411)), url(./u002.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 100%;
+    background-color: #ffffff3f;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    /* color:#000000c0; */
+    color:#fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+input[type="submit"],.btn-lg {
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.9s ease-in-out;
+    font-weight: 800;
+
+    background: linear-gradient(to right, #fa9e1b, #8d4fff);
+   
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+
+input[type="submit"]:hover,.btn-lg:hover {
+    background: linear-gradient(to right,#8d4fff, #fa9e1b);
+}
+
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+.section-part{
+    padding: 10px;
+}
+
+.section-part p{
+    color:#ccc;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.section-part h2{
+    font-weight: 800;
+}
+
+.btn-group button{
+    font-weight: 700;
+    color:#ccc;
+}
